@@ -4,64 +4,94 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div>
-      <div>
-        <!--div cabeçalho-->
-        <img src="./img/logo.png" />
-        <h1>Name Surname</h1>
-        <p>Lorem ipsum dolor sit amet, consecteteur adipiscing elit.</p>
+    <div class="container">
+      <!--div cabeçalho-->
+      <img class="logo" src="./img/logo.png" />
+      <div class="cabecalho">
+        <h1 class="h1">Suricate Seboso</h1>
+        <p class="p">
+          Lorem ipsum dolor sit amet, consecteteur adipiscing elit.
+        </p>
       </div>
-      <div>
+      <br/>
+
+      <div class="redes_botoes">
         <!--div icones de redes sociais-->
-        <img src="./img/ig.png" />
-        <img src="./img/x.png" />
-        <img src="./img/linkedin.png" />
-        <img src="./img/facebook.png" />
-        <img src="./img/youtube.png" />
+        <img href="#" src="./img/ig.png" />
+        <img href="#" src="./img/x.png" />
+        <img href="#" src="./img/linkedin.png" />
+        <img href="#" src="./img/facebook.png" />
+        <img href="#" src="./img/youtube.png" />
       </div>
       <br />
-      <div>
+      <div class="botoes">
         <!--div links-->
-        <button>
-          <img src="./img/globo.png" />
-          Visit my website >
-        </button>
+        <a href="#">
+          <i class="fa-solid fa-globe"></i>
+          <span> Visit my website </span>
+          <i class="fa-solid fa-chevron-right"></i>
+        </a>
         <br />
-        <button>
-          <img src="./img/paintSelector.png" />
-          Portfolio >
-        </button>
+        <a href="#">
+          <i class="fa-solid fa-briefcase"></i>
+          <span> Portfolio </span>
+          <i class="fa-solid fa-chevron-right"></i>
+        </a>
         <br />
-        <button>
-          <img src="./img/me.png" />
-          About me >
-        </button>
+        <a href="#">
+          <i class="fa-solid fa-user"></i>
+          <span> About me </span>
+          <i class="fa-solid fa-chevron-right"></i>
+        </a>
         <br />
-        <button>
-          <img src="./img/quote.png" />
-          Free resources >
-        </button>
+        <a href="#">
+          <i class="fa-brands fa-creative-commons"></i>
+          <span> Free resources </span>
+          <i class="fa-solid fa-chevron-right"></i>
+        </a>
         <br />
-        <button>
-          <img src="./img/geekface.png" />
-          Blog articles >
-        </button>
+        <a href="#">
+          <i class="fa-solid fa-blog"></i>
+          <span> Blog articles </span>
+          <i class="fa-solid fa-chevron-right"></i>
+        </a>
         <br />
-        <button>
-          <img src="./img/letter.png" />
-          Contact me >
-        </button>
+        <a href="#">
+          <i class="fa-regular fa-envelope"></i>
+          <span> Contact me </span>
+          <i class="fa-solid fa-chevron-right"></i>
+        </a>
       </div>
     </div>
     <br />
+
+    <hr />
+    <br/>
+    <br/>
     <footer>
-      <button>
-        <img src="./img/bigletter.png" />
-        <h4>Join my newsletter</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </button>
+      <div class="rodape">
+        <i font-size="12" class="fa-solid fa-inbox"></i>
+        <h4 class="h4">Join my newsletter</h4>
+        <p class="p2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <br/>
+        <input class="formulario" type="email" placeholder="Type your e-mail">
+        <br/>
+        <button class="send">Send</button>
+      </div>
+      <br/>
+      <br/>
     </footer>
   </body>
 </html>

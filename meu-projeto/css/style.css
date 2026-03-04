@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 150px;
+  background: #020024;
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 5%,
+    rgba(9, 9, 121, 1) 17%,
+    rgba(0, 212, 255, 1) 50%
+  );
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  padding: 20px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: auto;
+  width: 100px;
+  background-color: aqua;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.redes_botoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.redes_botoes:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+}
+
+.botoes a {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: red;
+  border: 2px solid black;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.botoes a:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.send {
+  width: 100px;
+  height: 30px;
+  border-radius: 12px;
+}
+
+.formulario {
+  width: 300px;
+  height: 30px;
+}
+
+.h4 {
+  font-size: 25px;
+}
+
+.p2 {
+  font-size: 20px;
+}
